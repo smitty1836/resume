@@ -3,7 +3,7 @@ import { Resume } from './Resume'
 
 function App() {
   return (
-    <div className="resume-site">
+    <main className="resume-site">
       <header className="hero no-print">
         <p className="kicker">Resume</p>
         <h1>Leadership Profile</h1>
@@ -20,9 +20,9 @@ function App() {
         </button>
       </header>
 
-      <main className="content">
+      <div className="content">
         <Resume />
-      </main>
+      </div>
 
       <footer className="site-footer no-print">
         <button
@@ -33,7 +33,7 @@ function App() {
           Print / Save as PDF
         </button>
       </footer>
-    </div>
+    </main>
   )
 }
 
