@@ -10,6 +10,7 @@ export function Resume() {
             src="https://avatars.githubusercontent.com/smitty1836"
             alt="Michael Schmitt"
             className="profile-pic"
+            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
           />
           <h1 className="name">Michael Schmitt</h1>
           <h3 className="tagline">Manager, Systems Engineering | Solutions Architect</h3>
