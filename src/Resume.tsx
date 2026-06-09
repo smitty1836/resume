@@ -49,7 +49,7 @@ export function Resume() {
               <p className="time">2012</p>
             </div>
             <div className="item">
-              <h4 className="degree">BS, Business Administration</h4>
+              <h4 className="degree">Bachelor of Science, Business Administration</h4>
               <p className="meta">University Name</p>
               <p className="time">2009</p>
             </div>
@@ -217,7 +217,7 @@ export function Resume() {
             </div>
             <div className="item">
               <h3 className="level-title">Budget &amp; Resource Planning</h3>
-              <div className="level-bar" role="meter" aria-label="Budget and Resource Planning proficiency" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}>
+              <div className="level-bar" role="meter" aria-label="Budget &amp; Resource Planning proficiency" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}>
                 <div className="level-bar-inner" style={{ width: '85%' }}></div>
               </div>
             </div>
