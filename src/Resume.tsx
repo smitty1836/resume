@@ -96,7 +96,7 @@ export function Resume() {
                   managed identities to meet enterprise privacy and risk standards.
                 </li>
                 <li>
-                  Lead multiple direct reports and contractors while coordinating
+                  Led multiple direct reports and contractors while coordinating
                   third-party providers to maintain 99.99% infrastructure availability.
                 </li>
                 <li>
