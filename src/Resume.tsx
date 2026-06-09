@@ -6,6 +6,12 @@ export function Resume() {
       <aside className="sidebar-wrapper" aria-label="Contact and background">
 
         <div className="profile-container">
+          <img
+            src="https://avatars.githubusercontent.com/smitty1836"
+            alt="Michael Schmitt"
+            className="profile-pic"
+            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+          />
           <h1 className="name">Michael Schmitt</h1>
           <h3 className="tagline">Manager, Systems Engineering | Solutions Architect</h3>
         </div>
