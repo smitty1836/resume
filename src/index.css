@@ -4,31 +4,44 @@
 
 body {
   margin: 0;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  color: #1f2328;
-  background: #f4f6f8;
+  font-family: "Roboto", sans-serif;
+  color: #545e6c;
+  background: #f5f5f5;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 30px auto;
 }
 
 h1,
-h2 {
-  margin: 0;
-  color: #111827;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
 }
 
-h1 {
-  margin-top: 0.25rem;
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
+a {
+  color: #2a7f99;
+  text-decoration: none;
 }
 
-h2 {
-  font-size: clamp(1.15rem, 2vw, 1.4rem);
+a:hover {
+  text-decoration: underline;
+  color: #1a5f73;
 }
 
 p {
   line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
