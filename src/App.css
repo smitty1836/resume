@@ -1,0 +1,85 @@
+.resume-site {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.hero,
+.preview-card,
+.summary-card {
+  border: 1px solid #d6d6d6;
+  border-radius: 12px;
+  padding: 1.25rem;
+  background: #fff;
+}
+
+.kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: #495057;
+  font-size: 0.75rem;
+}
+
+.subtitle {
+  margin: 0.5rem 0 1rem;
+}
+
+.resume-link {
+  display: inline-block;
+  text-decoration: none;
+  background: #1f6feb;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+}
+
+.content {
+  display: grid;
+  gap: 1rem;
+}
+
+.resume-preview {
+  margin-top: 0.75rem;
+  border: 0;
+  width: 100%;
+  min-height: 420px;
+  border-radius: 8px;
+  background: #f1f3f5;
+}
+
+.summary-card ul {
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+}
+
+.summary-card li + li {
+  margin-top: 0.5rem;
+}
+
+.preview-note {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.site-footer {
+  text-align: center;
+}
+
+.site-footer a {
+  color: #1f6feb;
+}
+
+@media (min-width: 900px) {
+  .resume-site {
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .content {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+}
