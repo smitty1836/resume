@@ -25,6 +25,6 @@ https://drive.google.com/file/d/1BwPouF5WsZ4SR1-lJuhOFUlGV4Ixd07N/view?usp=drive
 
 A workflow is included at:
 
-`/home/runner/work/resume/resume/smitty1836/resume/.github/workflows/deploy.yml`
+`.github/workflows/deploy.yml`
 
 It deploys on pushes to `main` using GitHub Pages Actions.
